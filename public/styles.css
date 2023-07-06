@@ -1,0 +1,42 @@
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    display: flex;
+}
+
+body > main * {
+    margin: 8px 0 8px 0;
+}
+
+header * {
+    justify-content: center;
+    display: flex;
+    margin: 8px;
+}
+
+main > div {
+    justify-content: space-between;
+    display: flex;
+}
+
+main > form {
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding: 16px;
+}
+
+.alert-danger {
+    color: red;
+}
