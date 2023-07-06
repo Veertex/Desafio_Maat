@@ -34,7 +34,7 @@ Todos los comandos que se muestran a continuacion deben ejecutarse desde dentro 
     EXIT;
 ```
 
--   Abrir el archivo .env y editar con los siguientes valores las lineas que corresponden a la configuracion de la base de datos del proyecto.
+-   Abrir el archivo .env y editar con los siguientes valores las lineas que corresponden a la configuracion de la base de datos del proyecto:
 
 ```bash
     DB_CONNECTION=mysql
@@ -53,7 +53,7 @@ Todos los comandos que se muestran a continuacion deben ejecutarse desde dentro 
 
 ## Inicializacion
 
--   Dentro de la carpeta del proyecto
+-   Dentro de la carpeta del proyecto se debe ejecutar el siguiente comando:
 
 ```bash
     php artisan serve
