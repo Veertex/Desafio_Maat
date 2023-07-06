@@ -25,7 +25,7 @@ Todos los comandos que se muestran a continuacion deben ejecutarse desde dentro 
     Desde BASH Linux: cp .env.example .env
 ```
 
--   Para nuestro proyecto es necesario contar con una base de datos en la cual almacenar nuestros registros. Usando Mysql podemos generar nuestra base de datos con el siguiente comando:
+-   Para nuestro proyecto es necesario contar con una base de datos en la cual almacenar nuestros registros. Usando Mysql podemos generar nuestra base de datos con los siguientes comandos:
 
 ```bash
     mysql -u root
@@ -34,7 +34,7 @@ Todos los comandos que se muestran a continuacion deben ejecutarse desde dentro 
     EXIT;
 ```
 
--   Abrir y configurar la base de datos a utilizar en el archivo archivo .env. Editar las lineas correspondientes con los siguientes valores.
+-   Abrir el archivo .env y editar con los siguientes valores las lineas que corresponden a la configuracion de la base de datos del proyecto.
 
 ```bash
     DB_CONNECTION=mysql
